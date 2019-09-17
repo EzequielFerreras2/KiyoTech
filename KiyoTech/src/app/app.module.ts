@@ -18,8 +18,9 @@ import { routes } from './app.routes';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot(routes                                                                                                                                                                                                                                                                                                                                                                                                                     ),
+    AppRoutingModule,  
+    RouterModule.forRoot(routes),
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
   ],
   providers: [],
   bootstrap: [AppComponent]
