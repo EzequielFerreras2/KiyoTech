@@ -7,19 +7,23 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavBarComponent } from './pages/nav-bar/nav-bar.component';
 import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
-
+import { ClienteComponent } from './pages/cliente/cliente.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     AppComponent,
    HomeComponent,
-   NavBarComponent
+   NavBarComponent,
+   ClienteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,  
     RouterModule.forRoot(routes),
+    FormsModule
+
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
   ],
   providers: [],
