@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DatePipe, Time } from '@angular/common';
 
 @Component({
   selector: 'home',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+ CurrentDate = new Date()
+
+  
+
+  constructor( ) { }
 
   ngOnInit() {
+    
   }
 
 }
